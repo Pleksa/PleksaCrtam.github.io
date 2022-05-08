@@ -3,4 +3,25 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "papermod"
 
+[params]
+comments = true
+ShowShareButtons = true
 
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/adityatelange/hugo-PaperMod"
+
+  [[params.socialIcons]]
+  name = "KoFi"
+  url = "https://ko-fi.com/adityatelange"
+
+  [[params.socialIcons]]
+  name = "RsS"
+  url = "index.xml"
+
+  [params.homeInfoParams]
+  Title = "Hi there wave"
+  Content = "Can be Info, links, about..."
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
