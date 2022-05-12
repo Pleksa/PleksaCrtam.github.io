@@ -6,6 +6,7 @@ theme = "papermod"
 [params]
 comments = true
 ShowShareButtons = true
+disqus = "Pleksa Disqus"
 
   [[params.socialIcons]]
   name = "github"
@@ -18,6 +19,12 @@ ShowShareButtons = true
   [[params.socialIcons]]
   name = "RsS"
   url = "index.xml"
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/elonmusk"
+  [[params.socialIcons]]
+  name = "email"
+  url = "https://mail.google.com/mail/u/0/?dispatcher_command=master_lookup#inbox"
 
   [params.homeInfoParams]
   Title = "Hi there wave"
