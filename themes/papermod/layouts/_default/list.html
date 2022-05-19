@@ -22,6 +22,7 @@
   {{- partial "anchored_headings.html" .Content -}}
   {{- else }}{{ .Content }}{{ end }}
 </div>
+
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}
@@ -69,8 +70,9 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
-{{- end }}
+{{- end }} 
 
+{{partial "blok.html" .}} 
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
   <nav class="pagination">

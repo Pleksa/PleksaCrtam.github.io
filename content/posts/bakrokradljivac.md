@@ -2,7 +2,10 @@
 title: "normalno ime"
 date: 2022-04-30T17:34:09+02:00
 cover:
-    image: "<images/comi.png>"
+    image: "images/zeleno.jpeg"
+    alt: "alt text"
+    caption: "text"
+    relative: false
 weight: 1
 categories:
   - sto

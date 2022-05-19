@@ -331,6 +331,7 @@
 
 .share-buttons {
     margin: 14px 0;
+    margin-bottom:150px;
     padding-inline-start: var(--radius);
     display: flex;
     justify-content: center;
