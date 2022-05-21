@@ -67,13 +67,12 @@ pre:hover .copy-code {
     display: block;
 }
 .proba {
-    border: 10px solid lightcyan;
+    border: 10px solid var(--majmun);
     margin-left: 850px;
     position: absolute;
     top: 150px;
     left: 15px;
     width:300px;
-    height: 300px;
-    padding-top: 200px;
-    background-color: cornsilk;
+    height: 350px;
+    background-color: var(--bgboja);
 }
