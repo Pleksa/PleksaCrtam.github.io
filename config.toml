@@ -2,6 +2,7 @@ baseURL = 'https://pleksa.ga/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "papermod"
+disableThemeToggle = true
 
 [params]
 comments = true
